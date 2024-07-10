@@ -32,6 +32,10 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <!-- google-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="containerbody">
@@ -44,15 +48,15 @@
             height="110px"
           />
         </div>
-        <div>
+        <div class="links">
           <a href="#">ABOUT</a>
           <a href="#">BLOG</a>
           <a href="#">DESTINATION</a>
           <a href="#">SOLO FEMALE TRAVEL</a>
           <a href="#">TRAVEL RESOURCES</a>
           <a href="#">CONTACT</a>
-          <button>
-            <i class="fa-solid fa-magnifying-glass" style="color: #74c0fc"></i>
+          <button class="search">
+              <i class="fa-solid fa-magnifying-glass" style="color: rgb(76, 124, 191)"></i>
           </button>
         </div>
       </section>
@@ -81,18 +85,18 @@
       </section>
       <!-- Review -->
 
-      <div class="cmnt">
-        <div class="britt">
+      <div class="cmnts">
+        <div class="cmnt">
           <p>
             You’re the most genuine blogger I’ve ever read…I’ve consumed a lot
             of blogs and travel related content in the past decade but you’re
             the only one I really trust and can genuinely say puts your readers
             first.
           </p>
-          <p>Britt</p>
+          <p class="cmntname">Britt</p>
           <p>Australia</p>
         </div>
-        <div class="crys">
+        <div class="cmnt">
           <p>
             No one tackles the uncomfortable and difficult subjects like Kate
             does. I feel like she makes me a more aware and ethical traveler.
@@ -100,7 +104,7 @@
             wickedly intelligent, hilarious well-traveled friend we would all
             love to have.
           </p>
-          <p>Crys</p>
+          <p class="cmntname">Crys</p>
           <p>USA</p>
         </div>
       </div>
@@ -110,21 +114,20 @@
         <div class="img">
           <img
             src="https://www.adventurouskate.com/wp-content/uploads/2019/11/DSC_0295.jpg"
-            alt=""
+            alt="travelguide"
           />
-          <!-- </div>
-        <div> -->
-          <h1>SOLO FEMALE TRAVEL GUIDE</h1>
+          <h1>SOLO FEMALE TRAVEL GUIDES</h1>
         </div>
       </div>
       <!-- latest blog -->
-      <section id="blog">
-        <h2>LATEST BLOG POSTS</h2>
-        <div class="d-flex">
-          <div>
+      <section id="blogs">
+        <h2 class="title">LATEST BLOG POSTS</h2>
+        <div class="borderline"></div>
+        <div class="blog">
+          <div class="blog1">
             <a href="#">AK Monthly Recap: May 2024</a>
           </div>
-          <div>
+          <div class="blog2">
             <a href="#">
               <figure>
                 <img
@@ -135,146 +138,153 @@
               </figure>
             </a>
           </div>
-          <div>
+          <div class="blog1">
             <a href="#">Murano Island Guide</a>
           </div>
         </div>
-        <button>MORE FROM THE BLOG</button>
+        <button class="btn1">MORE FROM THE BLOG</button>
+        
       </section>
       <!-- top destinations -->
       <section id="topdestination">
-        <h2>TOP DESTINATION</h2>
-        <div class="d-flex">
-          <div>
+        <h2 class="title">TOP DESTINATION</h2>
+        <div class="borderline"></div>
+        <div class="destinations">
+          <div class="destination">
             <img
               src="https://www.adventurouskate.com/wp-content/uploads/2019/11/Paris-Louvre-1.jpg"
               alt=""
             />
-            <p>Paris</p>
+            <p>PARIS</p>
           </div>
-          <div>
+          <div class="destination">
             <img
-              src="https://www.adventurouskate.com/wp-content/uploads/2019/11/Paris-Louvre-1.jpg"
+              src="https://www.adventurouskate.com/wp-content/uploads/2019/11/DSCF3979-1.jpg"
               alt=""
             />
-            <p>Paris</p>
+            <p>ITALY</p>
           </div>
-          <div>
+          <div class="destination">
             <img
-              src="https://www.adventurouskate.com/wp-content/uploads/2019/11/Paris-Louvre-1.jpg"
+              src="https://www.adventurouskate.com/wp-content/uploads/2019/11/New-York-1.jpg"
               alt=""
             />
-            <p>Paris</p>
+            <p>NEW YORK</p>
           </div>
-          <div>
+          <div class="destination">
             <img
-              src="https://www.adventurouskate.com/wp-content/uploads/2019/11/Paris-Louvre-1.jpg"
+              src="https://www.adventurouskate.com/wp-content/uploads/2019/11/DSC_0270.jpg"
               alt=""
             />
-            <p>Paris</p>
+            <p>BEACH GATEWAYS</p>
           </div>
-          <div>
+          <div class="destination">
             <img
-              src="https://www.adventurouskate.com/wp-content/uploads/2019/11/Paris-Louvre-1.jpg"
+              src="https://www.adventurouskate.com/wp-content/uploads/2019/11/DSCF0626.jpg"
               alt=""
             />
-            <p>Paris</p>
+            <p>CITY BREAKS</p>
           </div>
-          <div>
+          <div class="destination">
             <img
-              src="https://www.adventurouskate.com/wp-content/uploads/2019/11/Paris-Louvre-1.jpg"
+              src="https://www.adventurouskate.com/wp-content/uploads/2019/11/DSCF2956.jpg"
               alt=""
             />
-            <p>Paris</p>
+            <p>OFF THE BEATEN PATH</p>
           </div>
         </div>
+        <button class="btn1">See All Destinations</button>
       </section>
       <!-- popular post -->
       <section id="popularpost">
-        <h2>POPULAR POSTS</h2>
-        <div class="d-flex">
-          <div>
+        <h2 class="title">POPULAR POSTS</h2>
+        <div class="borderline"></div>
+        <div class="postgallery">
+          <div class="post">
             <img
               src="https://www.adventurouskate.com/wp-content/uploads/2017/10/DSCF8244-400x300.jpg"
               alt=""
             />
             <p>How To Be Less Of a Travelling Asshole in 2020</p>
           </div>
-          <div>
+          <div class="post">
             <img
               src="https://www.adventurouskate.com/wp-content/uploads/2015/05/DSC_0434-400x300.jpg"
               alt=""
             />
-            <p>How To Be Less Of a Travelling Asshole in 2020</p>
+            <p>Backpacking Southeast Asia vs. Backpacking Central America</p>
           </div>
-          <div>
+          <div class="post">
             <img
               src="https://www.adventurouskate.com/wp-content/uploads/2015/08/image61-400x300.jpeg"
               alt=""
             />
-            <p>How To Be Less Of a Travelling Asshole in 2020</p>
+            <p>100 Travel Tips for Paris</p>
           </div>
         </div>
       </section>
       <!-- travel post-->
       <section id="travelpost">
-        <h2>SOLO FEMALE TRAVEL POSTS</h2>
-        <div class="d-flex">
-          <div>
+        <h2 class="title">SOLO FEMALE TRAVEL POSTS</h2>
+        <div class="borderline"></div>
+        <div class="postgallery">
+          <div class="post">
             <img
               src="https://www.adventurouskate.com/wp-content/uploads/2015/03/Travel-Safety-Tips-400x300.jpg"
               alt=""
             />
-            <p>How To Be Less Of a Travelling Asshole in 2020</p>
+            <p>Top 10 Travel Safety Tips for Women</p>
           </div>
-          <div>
+          <div  class="post">
             <img
               src="https://www.adventurouskate.com/wp-content/uploads/2016/10/DSCF8087-400x300.jpg"
               alt=""
             />
-            <p>How To Be Less Of a Travelling Asshole in 2020</p>
+            <p>How to Survive Pre-Trip Anxiety</p>
           </div>
-          <div>
+          <div  class="post">
             <img
               src="https://www.adventurouskate.com/wp-content/uploads/2018/12/DSCF6389-400x300.jpg"
               alt=""
             />
-            <p>How To Be Less Of a Travelling Asshole in 2020</p>
+            <p>Travel Safety : Always Consider the Source</p>
           </div>
         </div>
-        <button>MORE SOLO FEMALE TRAVEL POSTS</button>
+        <button class="btn1">MORE SOLO FEMALE TRAVEL POSTS</button>
       </section>
       <!-- USA gateways-->
       <section id="travelpost">
-        <h2>BEST USA GATEWAYS</h2>
-        <div class="d-flex">
-          <div>
+        <h2 class="title">BEST USA GATEWAYS</h2>
+        <div class="borderline"></div>
+        <div class="postgallery">
+          <div class="post">
             <img
               src="https://www.adventurouskate.com/wp-content/uploads/2018/05/DSCF2084-400x300.jpg"
               alt=""
             />
-            <p>How To Be Less Of a Travelling Asshole in 2020</p>
+            <p>Solo Female Travel in New Orleans: How to Stay Safe and Have Fun!</p>
           </div>
-          <div>
+          <div class="post">
             <img
               src="https://www.adventurouskate.com/wp-content/uploads/2017/06/DSCF5990-400x300.jpg"
               alt=""
             />
-            <p>How To Be Less Of a Travelling Asshole in 2020</p>
+            <p>14 Reasons Why I'm Smitten with Asheville, North Carolina</p>
           </div>
-          <div>
+          <div class="post">
             <img
               src="https://www.adventurouskate.com/wp-content/uploads/2016/05/DSCF4922-400x300.jpg"
               alt=""
             />
-            <p>How To Be Less Of a Travelling Asshole in 2020</p>
+            <p>How To Spend Three Days in Savannah</p>
           </div>
         </div>
       </section>
       <!-- as seen in -->
       <section>
-        <h2>AS SEEN IN</h2>
-        <div>
+        <h2 class="title">AS SEEN IN</h2>
+        <div class="borderline"></div>
+        <div class="logoimg">
           <img
             src="https://www.adventurouskate.com/wp-content/uploads/2019/11/forbes.png"
             alt=""
@@ -302,8 +312,8 @@
         </div>
       </section>
       <!-- contact -->
-      <section>
-        <div>
+      <section id="contact">
+        <div class="contactarea">
           <h2>
             Get Email Updates From Kate
           </h2>
@@ -313,17 +323,19 @@
           <input type="email" placeholder="Your Email Address">
           <br>
           <button>Subscribe</button>
-          <p>Absolutely no spam.</p>
-          <p>Unsubscribe anytime</p>
+          <p class="spam">Absolutely no spam.</p>
+          <p class="unsubscribe">Unsubscribe anytime</p>
         </div>
       </section>
     </div>
     <!-- footer -->
-     <section>
-      <div>
-        <p>&copy 2024 Adventurous Kate | Powered by <a href="#">Reggio Digital</a></p>
-        <a href="#">Work With Kate</a>
-        <a href="#">Privacy Policy</a>
+     <section id="footer">
+      <div class="page-end">
+        <div><p>&copy 2024 Adventurous Kate | Powered by <a href="#">Reggio Digital</a></p></div>
+        <div>
+          <a href="#">Work With Kate</a>
+          <a href="#">Privacy Policy</a>
+        </div>
       </div>
      </section>
   </body>
